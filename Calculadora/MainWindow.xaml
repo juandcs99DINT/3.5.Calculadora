@@ -5,8 +5,34 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Calculadora"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Calculadora" MinWidth="250" MinHeight="350" Height="550" Width="450" Icon="assets/128.ico">
+
+
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
         
+        <TextBox TextAlignment="Right" Margin="8" Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" Grid.ColumnSpan="3"></TextBox>
+        <Button Margin="5" Grid.Row="2" Grid.Column="0">1</Button>
+        <Button Margin="5" Grid.Row="3" Grid.Column="0">4</Button>
+        <Button Margin="5" Grid.Row="4" Grid.Column="0">7</Button>
+        <Button Margin="5" Grid.Row="2" Grid.Column="1">2</Button>
+        <Button Margin="5" Grid.Row="3" Grid.Column="1">5</Button>
+        <Button Margin="5" Grid.Row="4" Grid.Column="1">8</Button>
+        <Button Margin="5" Grid.Row="2" Grid.Column="2">3</Button>
+        <Button Margin="5" Grid.Row="3" Grid.Column="2">6</Button>
+        <Button Margin="5" Grid.Row="4" Grid.Column="2">9</Button>
+        <Button Margin="5" Grid.Row="5" Grid.ColumnSpan="3">0</Button>
     </Grid>
 </Window>
