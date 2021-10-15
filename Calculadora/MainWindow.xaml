@@ -34,7 +34,7 @@
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
 
-        <Border BorderBrush="Black" Margin="8" BorderThickness="1" Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" Grid.ColumnSpan="3">
+        <Border Style="{StaticResource BorderTextBlock}" Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" Grid.ColumnSpan="3">
             <DockPanel>
                 <Viewbox DockPanel.Dock="Right">
                     <TextBlock x:Name="NumerosTextBlock"></TextBlock>
