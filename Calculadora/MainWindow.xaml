@@ -17,7 +17,6 @@
             <Setter Property="BorderBrush" Value="Black"></Setter>
             <Setter Property="BorderThickness" Value="1"></Setter>
         </Style>
-        
     </Window.Resources>
     
     <Grid>
@@ -42,9 +41,8 @@
                 </Viewbox>
                 <TextBlock></TextBlock>
             </DockPanel>
-            
-
         </Border>
+        
         <Button Tag="1" Grid.Row="2" Grid.Column="0">
             <Viewbox>
                 <TextBlock>1</TextBlock>
@@ -70,7 +68,6 @@
                 <TextBlock>5</TextBlock>
             </Viewbox>
         </Button>
-
         <Button Tag="8" Grid.Row="4" Grid.Column="1">
             <Viewbox>
                 <TextBlock>8</TextBlock>
