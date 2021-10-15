@@ -35,13 +35,15 @@
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
 
-        <Border Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" Grid.ColumnSpan="3" Style="{StaticResource BorderTextBlock}">
+        <Border BorderBrush="Black" Margin="8" BorderThickness="1" Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" Grid.ColumnSpan="3">
             <DockPanel>
                 <Viewbox DockPanel.Dock="Right">
                     <TextBlock x:Name="NumerosTextBlock"></TextBlock>
                 </Viewbox>
                 <TextBlock></TextBlock>
             </DockPanel>
+            
+
         </Border>
         <Button Tag="1" Grid.Row="2" Grid.Column="0">
             <Viewbox>
